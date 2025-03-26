@@ -5,6 +5,8 @@ const nextConfig = {
     domains: [
       "factory-universe-co.mo.cloudinary.net",
       "45.33.6.167",
+      "media3.giphy.com",
+      "media1.giphy.com",
     ],
   },
   webpack: (config, { isServer }) => {

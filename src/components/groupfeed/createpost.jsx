@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Createpost = () => {
   return (
@@ -151,7 +152,7 @@ const Createpost = () => {
                   </button>
                 </div>
               </div>
-              <img
+              <Image
                 id="addPostImage"
                 src="#"
                 alt="Uploaded Image"
@@ -287,7 +288,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: brightness-125"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover brightness-125"
@@ -300,7 +301,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: contrast-150"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover contrast-150"
@@ -313,7 +314,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: grayscale"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover grayscale"
@@ -326,7 +327,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover hue-rotate-90"
@@ -339,7 +340,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: invert"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover invert"
@@ -352,7 +353,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: saturate-150"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover saturate-150"
@@ -365,7 +366,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: sepia"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover sepia"
@@ -378,7 +379,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: brightness-125"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover brightness-125"
@@ -391,7 +392,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: grayscale"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover contrast"
@@ -404,7 +405,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: grayscale"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover grayscale"
@@ -417,7 +418,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: hue-rotate-60"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover hue-rotate-60"
@@ -430,7 +431,7 @@ const Createpost = () => {
                             uk-toggle="target: #addPostImage; cls: invert"
                           >
                             <div className="group-hover:ring-2 ring-blue-600 ring-offset-4 duration-500 rounded dark:ring-offset-slate-800">
-                              <img
+                              <Image
                                 src="/assets/images/affect.jpg"
                                 alt=""
                                 className="rounded w-full h-20 object-cover invert"

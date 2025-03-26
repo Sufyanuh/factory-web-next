@@ -107,7 +107,7 @@ const Grouppage = (props) => {
                       {data?.group?.name}{" "}
                     </h1>
                   </div>
-                  <img
+                  <Image
                     src={renderUrl(data?.group?.thumbnail)}
                     className="max-w-full	 max-h-80 mb-2 inset-0"
                     alt=""

@@ -271,7 +271,7 @@ const HomePosts = (props) => {
                         href={`${comment?.imageUrl}`}
                         data-caption={comment?.body}
                       >
-                        {comment?.imageUrl?.includes(".gif") ? <img src={comment?.imageUrl} /> : <Image
+                        {comment?.imageUrl?.includes(".gif") ? <Image src={comment?.imageUrl} /> : <Image
                           src={comment?.imageUrl}
                           className="w-full h-full object-cover inset-0"
                           alt=""

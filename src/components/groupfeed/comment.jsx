@@ -5,6 +5,7 @@ import { GET_GROUP_BY_ID } from "../../Graphql/Queries";
 import { uploadFileToS3 } from "../../app/utils/S3singleFileUpload";
 import { useRouter } from "next/router";
 import { renderUrl } from "../../app/utils/assetsUrl";
+import Image from "next/image";
 
 const GroupComment = (props) => {
   const router = useRouter();
@@ -73,7 +74,7 @@ const GroupComment = (props) => {
   return (
     <>
       <div className="sm:px-4 sm:py-3 p-2.5 border-t border-gray-100 flex items-center gap-1 dark:border-slate-700/40">
-        <img
+        <Image
           src={user?.profile?.imageUrl ? renderUrl(user?.profile?.imageUrl) : "/assets/images/placeholder.png"}
           alt=""
           className="w-6 h-6 rounded-full"
@@ -127,7 +128,7 @@ const GroupComment = (props) => {
         </button>
       </div>
       {commentImgurl && (
-        <img
+        <Image
           src={renderUrl(commentImgurl)}
           className="w-full h-full object-cover inset-0"
           alt=""

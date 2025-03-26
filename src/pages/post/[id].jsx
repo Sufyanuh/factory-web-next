@@ -530,8 +530,8 @@ const PostView = (props) => {
 
 export async function getServerSideProps({ params }) {
     const token = secureStorage.getItem("token");
-    console.log("token", token, post.data );
     const post = await getInfo(params?.id);
+    console.log("token", token, post.data );
     return { props: { post: post.data } };
 }
 
