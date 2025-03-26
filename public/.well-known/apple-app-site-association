@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "P5FUDA7UA3.com.factoryuniverse.factory"
+                ],
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}
