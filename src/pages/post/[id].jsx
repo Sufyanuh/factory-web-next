@@ -247,12 +247,6 @@ const PostView = (props) => {
                                                             width={500}
                                                         />
                                                     ) : (
-                                                        // <video
-                                                        //     controls
-                                                        //     src={image.url}
-                                                        //     className=" h-screen bg-white"
-                                                        //     alt="no img found"
-                                                        // />
                                                         image?.url?.endsWith(".m3u8") ?
                                                             <HLSPlayer src={image?.url} />
                                                             :
